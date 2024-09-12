@@ -28,7 +28,7 @@ function addMessageToChat(message, sender) {
 }
 
 async function sendMessageToAPI(userInput) {
-    const apiKey = "YOUR_API_KEY";  // Replace this with your OpenAI API key
+    const apiKey = "sk-svcacct-XG-glgugRelR2_mYHVFqRZ_t3-hpbtcVZ8XkNsCxGbMc7GT3BlbkFJOZwcmhPiiVZsLxGM2HjCgTAXZCx4zZI0rp9EmQOIIcVVUA";  // Replace this with your OpenAI API key
     const apiUrl = "https://api.openai.com/v1/chat/completions";
 
     const headers = {
